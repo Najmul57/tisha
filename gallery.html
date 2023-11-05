@@ -1,0 +1,1358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanjin Tisha</title>
+    <!-- link shortcut -->
+    <link rel="shortcut icon" href="assets/image/logo.png" type="image/x-icon">
+    <!-- bootstarp link -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <!-- magnific -->
+    <link rel="stylesheet" href="assets/css/magnificpopup.css">
+    <!-- slick slider -->
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- css file link -->
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+    <!-- header section -->
+    <header class="header_section">
+
+        <!-- main header -->
+        <div class="main_header">
+            <div class="container">
+                <div class="header_wrapper">
+                    <!-- logo -->
+                    <div class="logo">
+                        <a href="./" class="logo_image">
+                            <!-- logo imgae -->
+                            <img src="assets/image/logo.png" alt="tisha">
+                        </a>
+                    </div>
+                    <!-- header nav -->
+                    <nav class="header_nav d-none d-lg-block">
+                        <ul class="d-flex gap-4 align-items-center">
+                            <li class="header_nav_item">
+                                <a class="header_nav_link">about <span><i
+                                            class="fa-solid fa-chevron-down"></i></span></a>
+                                <!-- sub menu -->
+                                <div class="sub_menu">
+                                    <!-- sub menu -->
+                                    <ul class="sub_menu_list">
+                                        <li class="sub_menu_item">
+                                            <a href="./biography" class="sub_menu_link"> <span></span>biography</a>
+                                        </li>
+                                        <li class="sub_menu_item">
+                                            <a href="./awards" class="sub_menu_link"> <span></span>awards</a>
+                                        </li>
+                                        <li class="sub_menu_item">
+                                            <a href="./cover" class="sub_menu_link"> <span></span>cover</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="header_nav_item">
+                                <a class="header_nav_link" href="./tishatv">tisha tv</a>
+                            </li>
+                            <li class="header_nav_item">
+                                <a class="header_nav_link" href="./tishanews">tisha news</a>
+                            </li>
+                            <li class="header_nav_item">
+                                <a class="header_nav_link" href="./gallery">gallery</a>
+                            </li>
+                            <li class="header_nav_item">
+                                <a class="header_nav_link" href="./contact">contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- toggler -->
+                    <div class="toggle_nav d-lg-none" data-bs-toggle="offcanvas" data-bs-target="#toggle_nav">
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- mobile nav -->
+        <div class="offcanvas offcanvas-start" id="toggle_nav">
+            <!-- offcanvas header -->
+            <div class="offcanvas-header">
+                <div class="nav_logo">
+                    <a href="./">
+                        <img src="assets/image/logo.png" alt="tisha">
+                    </a>
+                </div>
+                <button type="button btn" data-bs-dismiss="offcanvas"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <!-- offcanvas body -->
+            <div class="offcanvas-body">
+                <div class="mobile_nav">
+                    <ul>
+                        <!-- item -->
+                        <li>
+                            <a href="./">
+                                <p class="d-flex gap-2">
+                                    <span>home</span>
+                                </p>
+                            </a>
+                        </li>
+                        <!-- item -->
+                        <li>
+                            <a class="dropdown_button">
+                                <p class="d-flex gap-2">
+                                    <span>about</span>
+                                </p>
+                                <span><i class="fa-solid fa-chevron-down"></i></span>
+                            </a>
+                            <!-- mobile sub nav -->
+                            <div class="mobile_suv_nav dropdown_sub">
+                                <ul>
+                                    <!-- Sub Nav list -->
+                                    <li>
+                                        <a href="./biography">
+                                            <p class="d-flex gap-2">
+                                                <span class="subnav_text">biography</span>
+                                            </p>
+                                        </a>
+                                    </li>
+                                    <!-- Sub Nav list -->
+                                    <li>
+                                        <a href="./awards">
+                                            <p class="d-flex gap-2">
+                                                <span class="subnav_text">awards</span>
+                                            </p>
+                                        </a>
+                                    </li>
+                                    <!-- Sub Nav list -->
+                                    <li>
+                                        <a href="./cover">
+                                            <p class="d-flex gap-2">
+                                                <span class="subnav_text">cover</span>
+                                            </p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <!-- item -->
+                        <li>
+                            <a href="./tishatv">
+                                <p class="d-flex gap-2">
+                                    <span>tisha tv</span>
+                                </p>
+                            </a>
+                        </li>
+                        <!-- item -->
+                        <li>
+                            <a href="./tishanews">
+                                <p class="d-flex gap-2">
+                                    <span>tisha news</span>
+                                </p>
+                            </a>
+                        </li>
+                        <!-- item -->
+                        <li>
+                            <a href="./contact">
+                                <p class="d-flex gap-2">
+                                    <span>contact</span>
+                                </p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <!-- header section end -->
+
+    <!-- main section start -->
+
+    <!-- biography start -->
+    <div class="biography__area" data-aos="fade-up" data-aos-duration="3000">
+        <div class="container">
+            <div class="row">
+                <div class="about__title">
+                    <h1>tanjin tisha</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- biography end -->
+
+    <!-- gallery start -->
+    <div class="gallery-area section__padding" data-aos="fade-up" data-aos-duration="3000">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section__title">
+                        <h2><span>T</span>isha's Gallery</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-3">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/1.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/1.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/2.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/2.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/3.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/3.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/4.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/4.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/5.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/5.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/6.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/6.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/7.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/7.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/8.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/8.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/9.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/9.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/10.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/10.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/11.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/11.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/12.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/12.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/13.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/13.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/14.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/14.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/15.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/15.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/16.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/16.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/17.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/17.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/18.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/18.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/19.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/19.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/20.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/20.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/21.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/21.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/22.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/22.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/23.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/23.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/24.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/24.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/25.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/25.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/26.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/26.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/27.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/27.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/28.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/28.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/29.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/29.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/30.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/30.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/31.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/31.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/32.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/32.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/33.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/33.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/34.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/34.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/35.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/35.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/36.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/36.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/37.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/37.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/38.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/38.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/39.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/39.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/40.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/40.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/41.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/41.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/42.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/42.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/43.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/43.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/44.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/44.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/45.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/45.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/46.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/46.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/47.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/47.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/48.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/48.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/49.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/49.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/50.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/50.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/51.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/51.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/52.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/52.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/53.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/53.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/54.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/54.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/55.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/55.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/56.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/56.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/57.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/57.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/58.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/58.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/59.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/59.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/60.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/60.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/61.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/61.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/62.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/62.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/63.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/63.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/64.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/64.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/65.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/65.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/66.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/66.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/67.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/67.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/68.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/68.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/69.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/69.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/70.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/70.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/71.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/71.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/72.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/72.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/73.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/73.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/74.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/74.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/75.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/75.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/76.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/76.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/77.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/77.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/78.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/78.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/79.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/79.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/80.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/80.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/81.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/81.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/82.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/82.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/83.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/83.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/84.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/84.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/85.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/85.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/86.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/86.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/87.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/87.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/88.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/88.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/89.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/89.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/90.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/90.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/91.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/91.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/92.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/92.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/93.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/93.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/94.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/94.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/95.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/95.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/96.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/96.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/97.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/97.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/98.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/98.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/99.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/99.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/100.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/100.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/101.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/101.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/102.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/102.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/103.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/103.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/104.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/104.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/105.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/105.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/106.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/106.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/107.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/107.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/108.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/108.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/109.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/109.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/110.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/110.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/111.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/111.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/112.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/112.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/113.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/113.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/114.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/114.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/115.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/115.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/116.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/116.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/117.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/117.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/118.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/118.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/119.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/119.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/120.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/120.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/121.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/121.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/122.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/122.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/123.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/123.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/124.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/124.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/125.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/125.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/126.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/126.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/127.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/127.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/128.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/128.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/129.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/129.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/130.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/130.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/131.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/131.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/gallery/132.jpg" class="single_gallery">
+                        <div class="photo__gallery">
+                            <img src="assets/image/gallery/132.jpg" alt="">
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- gallery end -->
+
+    <!-- main section end -->
+
+    <!-- footer sectin start -->
+    <footer>
+        <div class="footer-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="text-center text-white mb-5">Join with <span>Tisha</span></h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/TanjinTishaTT" target="_blank"><i
+                                    class="fab fa-facebook"></i></a>
+                            <a href="https://www.youtube.com/channel/UCNK-u-Is7k00Jq8QsdbhrDw" target="_blank"><i
+                                    class="fab fa-youtube"></i></a>
+                            <a href="https://www.instagram.com/tanjintisha/?hl=en" target="_blank"><i
+                                    class="fab fa-instagram"></i></a>
+                            <a href="https://www.tiktok.com/discover/Tanjin-tisha-tiktok" target="_blank"><i
+                                    class="fab fa-tiktok"></i></a>
+                            <a href="https://twitter.com/Tanjin_Tisha_" target="_blank"><i
+                                    class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="footer-menu">
+                            <ul>
+                                <li><a href="./">home</a></li>
+                                <li><a href="./biography">biography</a></li>
+                                <li><a href="./awards">awards</a></li>
+                                <li><a href="./cover">cover</a></li>
+                                <li><a href="./tishatv">tisha tv </a></li>
+                                <li><a href="./tishanews">tisha news</a></li>
+                                <li><a href="./gallery">gallery</a></li>
+                                <li><a href="./contact">contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright-area pt-3 pb-3">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-md-6 col-sm-12 col-12">
+                        <p>Copyright ©
+                            <script>document.write(new Date().getFullYear())</script> All Rights Reserved
+                        </p>
+                    </div>
+                    <div class="col-md-6 col-sm-12 col-12 ">
+                        <span>Developed By <a href="https://classicit.com.bd/" target="_blank">Classic IT</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer sectin end -->
+
+
+    <!-- jquery link -->
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- slick slider -->
+    <script src="assets/js/slick.min.js"></script>
+    <!-- magmific popup -->
+    <script src="assets/js/magnific.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- main js -->
+    <script script src="assets/js/app.js"></script>
+
+    <script>
+        var tl = gsap.timeline({ repeat: -1 });
+        tl.to(".about__title h1", 30, { backgroundPosition: "-960px 0" });
+
+    </script>
+
+
+
+
+</body>
+
+</html>

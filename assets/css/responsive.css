@@ -1,0 +1,102 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {}
+
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .banner__content h1 {
+        color: #fff;
+        font-size: 40px;
+    }
+
+    .release_content {
+        border-bottom: 1px solid var(--bs-black);
+    }
+
+    .view_all {
+        margin-top: 20px;
+    }
+
+    .about__title h1 {
+        font-size: 150px;
+    }
+}
+
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .banner__content h1 {
+        color: #fff;
+        font-size: 40px;
+    }
+
+    .release_content {
+        border-bottom: 1px solid var(--bs-black);
+    }
+
+    .view_all {
+        margin-top: 20px;
+    }
+
+    .copyright-area {
+        text-align: center;
+    }
+
+    .copyright-area span {
+        text-align: center;
+    }
+
+    .about__title h1 {
+        font-size: 80px;
+    }
+
+    .quoto__area h1 {
+        font-size: 25px;
+    }
+
+    .review .slick-dots {
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .first_sporlight .spotlight_photo {
+        max-height: 100%;
+    }
+
+    .first_sporlight .spotlight_photo img {
+        width: 100%;
+    }
+
+    .banner__area {
+        height: 70vh;
+    }
+
+    .section__title h2 {
+        font-size: 22px;
+    }
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .banner__content h1 {
+        color: #fff;
+        font-size: 40px;
+    }
+
+    .release_content {
+        border-bottom: 1px solid var(--bs-black);
+    }
+
+    .view_all {
+        margin-top: 20px;
+    }
+
+    .about__title h1 {
+        font-size: 50px;
+    }
+
+}

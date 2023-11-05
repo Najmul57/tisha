@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanjin Tisha</title>
+    <!-- link shortcut -->
+    <link rel="shortcut icon" href="assets/image/logo.png" type="image/x-icon">
+    <!-- bootstarp link -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <!-- magnific -->
+    <link rel="stylesheet" href="assets/css/magnificpopup.css">
+    <!-- slick slider -->
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <!-- animated headline -->
+    <link rel="stylesheet" href="assets/css/animated-headline.css">
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- css file link -->
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+    <!-- header section -->
+    <header class="header_section">
+
+        <!-- main header -->
+        <div class="main_header">
+            <div class="container">
+                <div class="header_wrapper">
+                    <!-- logo -->
+                    <div class="logo">
+                        <a href="./" class="logo_image">
+                            <!-- logo imgae -->
+                            <img src="assets/image/logo.png" alt="tisha">
+                        </a>
+                    </div>
+                    <!-- header nav -->
+                    <nav class="header_nav d-none d-lg-block">
+                        <ul class="d-flex gap-4 align-items-center">
+                            <li class="header_nav_item">
+                                <a class="header_nav_link">about <span><i
+                                            class="fa-solid fa-chevron-down"></i></span></a>
+                                <!-- sub menu -->
+                                <div class="sub_menu">
+                                    <!-- sub menu -->
+                                    <ul class="sub_menu_list">
+                                        <li class="sub_menu_item">
+                                            <a href="./biography" class="sub_menu_link"> <span></span>biography</a>
+                                        </li>
+                                        <li class="sub_menu_item">
+                                            <a href="./awards" class="sub_menu_link"> <span></span>awards</a>
+                                        </li>
+                                        <li class="sub_menu_item">
+                                            <a href="./cover" class="sub_menu_link"> <span></span>cover</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="header_nav_item">
+                                <a class="header_nav_link" href="./tishatv">tisha tv</a>
+                            </li>
+                            <li class="header_nav_item">
+                                <a class="header_nav_link" href="./tishanews">tisha news</a>
+                            </li>
+                            <li class="header_nav_item">
+                                <a class="header_nav_link" href="./gallery">gallery</a>
+                            </li>
+                            <li class="header_nav_item">
+                                <a class="header_nav_link" href="./contact">contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- toggler -->
+                    <div class="toggle_nav d-lg-none" data-bs-toggle="offcanvas" data-bs-target="#toggle_nav">
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- mobile nav -->
+        <div class="offcanvas offcanvas-start" id="toggle_nav">
+            <!-- offcanvas header -->
+            <div class="offcanvas-header">
+                <div class="nav_logo">
+                    <a href="./">
+                        <img src="assets/image/logo.png" alt="tisha">
+                    </a>
+                </div>
+                <button type="button btn" data-bs-dismiss="offcanvas"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <!-- offcanvas body -->
+            <div class="offcanvas-body">
+                <div class="mobile_nav">
+                    <ul>
+                        <!-- item -->
+                        <li>
+                            <a href="./">
+                                <p class="d-flex gap-2">
+                                    <span>home</span>
+                                </p>
+                            </a>
+                        </li>
+                        <!-- item -->
+                        <li>
+                            <a class="dropdown_button">
+                                <p class="d-flex gap-2">
+                                    <span>about</span>
+                                </p>
+                                <span><i class="fa-solid fa-chevron-down"></i></span>
+                            </a>
+                            <!-- mobile sub nav -->
+                            <div class="mobile_suv_nav dropdown_sub">
+                                <ul>
+                                    <!-- Sub Nav list -->
+                                    <li>
+                                        <a href="./biography">
+                                            <p class="d-flex gap-2">
+                                                <span class="subnav_text">biography</span>
+                                            </p>
+                                        </a>
+                                    </li>
+                                    <!-- Sub Nav list -->
+                                    <li>
+                                        <a href="./awards">
+                                            <p class="d-flex gap-2">
+                                                <span class="subnav_text">awards</span>
+                                            </p>
+                                        </a>
+                                    </li>
+                                    <!-- Sub Nav list -->
+                                    <li>
+                                        <a href="./cover">
+                                            <p class="d-flex gap-2">
+                                                <span class="subnav_text">cover</span>
+                                            </p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <!-- item -->
+                        <li>
+                            <a href="./tishatv">
+                                <p class="d-flex gap-2">
+                                    <span>tisha tv</span>
+                                </p>
+                            </a>
+                        </li>
+                        <!-- item -->
+                        <li>
+                            <a href="./tishanews">
+                                <p class="d-flex gap-2">
+                                    <span>tisha news</span>
+                                </p>
+                            </a>
+                        </li>
+                        <!-- item -->
+                        <li>
+                            <a href="./contact">
+                                <p class="d-flex gap-2">
+                                    <span>contact</span>
+                                </p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <!-- header section end -->
+
+    <!-- main section start -->
+
+    <!-- banner start -->
+    <div class="banner__area" style="overflow: hidden;">
+        <div class="container">
+            <div class="banner__content">
+                <h1 class="cd-headline clip">Tanjin Tisha<br>
+                    <span class="cd-words-wrapper cd-words-wrapper">
+                        <b class="is-visible">Actress</b>
+                        <b>Model</b>
+                        <b>TV Presenter</b>
+                    </span>
+                </h1>
+            </div>
+        </div>
+    </div>
+    <!-- banner end -->
+
+    <!-- release start -->
+    <div class="release__area section__padding" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <a href="https://www.youtube.com/watch?v=b9mqNgWpDz4" class="release-left d-block" target="_blank">
+                        <div class="release_photo">
+                            <img src="assets/image/new-relize.jpg" alt="">
+                        </div>
+                        <div class="release_content">
+                            <h4>প্রবীর রায় চৌধুরী'র পরিচালনায়, তৌসিফ মাহবুব ও <strong style="color: #FC00C5;">তানজিন
+                                    তিশা </strong> অভিনীত "ভালোবাসি তবুও" নাটকের
+                                First look পোস্টার। নাটকটি খুব শীঘ্রই এক্সক্লুসিভলি মুক্তি পাবে সিএমভি'র অফিসিয়াল ইউটিউব
+                                চ্যানেলে। </h4>
+                            <h5 style="font-weight: 600;">ভালোবাসি তবুও</h5>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-7">
+                    <div class="release-right">
+                        <ul>
+                            <li>
+                                <a href="https://www.youtube.com/watch?v=y80X-8VD8fU&t=1s" class="release_content"
+                                    target="_blank">
+                                    <h4><span>Putuler Songshar | পুতুলের সংসার | <strong style="color: #FC00C5;">Tanjin
+                                                Tisha</strong> | Sohel Mondal | Rinku |
+                                            Bangla New Natok 2023</span> </h4>
+                                    <h5 style="font-weight: 600;">পুতুলের সংসার</h5>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com/watch?v=_nUs1uU6r3U&t=2s" class="release_content"
+                                    target="_blank">
+                                    <h4><span>Konjush 2 | কঞ্জুস 2 | Musfiq R. Farhan | <strong
+                                                style="color: #FC00C5;">Tanjin Tisha</strong> | Mohidul Mohim|
+                                            Full Drama|Eid New Natok 2023</span> </h4>
+                                    <h5 style="font-weight: 600;"> কঞ্জুস 2</h5>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com/watch?v=__a5ky5Ao2M&t=2s" class="release_content"
+                                    target="_blank">
+                                    <h4><span>Kolizar Adkhan | কলিজার আধখান | Musfiq R. Farhan | <strong
+                                                style="color: #FC00C5;">Tanjin Tisha</strong> | New
+                                            Bangla Natok 2023</span> </h4>
+                                    <h5 style="font-weight: 600;"> কলিজার আধখান</h5>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com/watch?v=3xzDkzrPbW8" class="release_content"
+                                    target="_blank">
+                                    <h4><span>Shorbot | শরবত | Eid Natok | <strong style="color: #FC00C5;">Tanjin
+                                                Tisha</strong> | Mamunur Rashid | Deep | Shawon
+                                            | New Bangla Natok 2023</span> </h4>
+                                    <h5 style="font-weight: 600;">শরবত </h5>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="view_all">
+                            <a href="./tishatv">view all</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- release end -->
+
+    <!-- spotlight start -->
+    <div class="spotlight__area section__padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section__title">
+                        <h2><span>S</span>potlight</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center g-5 ">
+                <div class="col-lg-4 col-md-6" data-aos="fade-right" data-aos-offset="300"
+                    data-aos-easing="ease-in-sine">
+                    <a href="https://www.instagram.com/tanjintisha/?hl=en"
+                        class="single__sporlight first_sporlight d-block" target="_blank">
+                        <div class="spotlight_photo">
+                            <img src="assets/image/about/4.jpg" alt="">
+                        </div>
+                        <div class="spotlight_content">
+                            <h6>just look like wow</h6>
+                            <h6> <i class="fa-brands fa-instagram"></i> Posted on Instagram</h6>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <a href="https://www.facebook.com/TanjinTishaTT" class="single__sporlight d-block" target="_blank">
+                        <div class="spotlight_photo">
+                            <img src="assets/image/about/2.jpg" alt="">
+                        </div>
+                        <div class="spotlight_content">
+                            <h6>just look like wow</h6>
+                            <h6> <i class="fa-brands fa-facebook"></i> Posted on facebook</h6>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-left" data-aos-anchor="#example-anchor"
+                    data-aos-offset="500" data-aos-duration="500">
+                    <a href="https://www.youtube.com/channel/UCNK-u-Is7k00Jq8QsdbhrDw"
+                        class="single__sporlight first_sporlight d-block" target="_blank">
+                        <div class="spotlight_photo">
+                            <img src="assets/image/about/3.jpg" alt="">
+                        </div>
+                        <div class="spotlight_content">
+                            <h6>just look like wow</h6>
+                            <h6> <i class="fa-brands fa-youtube"></i> Posted on youtube</h6>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- spotlight end -->
+
+    <!-- tv start -->
+    <div class="tv__area section__padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section__title d-flex align-items-center justify-content-between">
+                        <h2 class="text-white"><span>T</span>isha TV</h2>
+                        <div class="view_all">
+                            <a href="./tishatv" class="text-white">view all</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+                <div class="col-12">
+                    <div class="row align-items-center">
+                        <div class="col-lg-7">
+                            <div class="tab-content" id="v-pills-tabContent">
+                                <div class="tab-pane fade show active" id="tanjin1" role="tabpanel"
+                                    aria-labelledby="tanjin1-tab" tabindex="0">
+
+                                    <iframe width="100%" height="400"
+                                        src="https://www.youtube.com/embed/lwAEmYAJ9kg?si=M84by6COVmW_gMly&amp;start=1"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                        allowfullscreen></iframe>
+
+                                </div>
+                                <div class="tab-pane fade" id="tanjin2" role="tabpanel" aria-labelledby="tanjin2-tab"
+                                    tabindex="0">
+                                    <iframe width="100%" height="400"
+                                        src="https://www.youtube.com/embed/OsKl4YiVSA8?si=6LTHz-hjI0LATwBi;start=1"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                        allowfullscreen></iframe>
+                                </div>
+                                <div class="tab-pane fade" id="tanjin3" role="tabpanel" aria-labelledby="tanjin3-tab"
+                                    tabindex="0">
+                                    <iframe width="100%" height="400"
+                                        src="https://www.youtube.com/embed/4bGUJ1wFgyA?si=jH81s3CWSlvKmH2e&amp;start=1"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                        allowfullscreen></iframe>
+                                </div>
+                                <div class="tab-pane fade" id="tanjin4" role="tabpanel" aria-labelledby="tanjin4-tab"
+                                    tabindex="0">
+                                    <iframe width="100%" height="400"
+                                        src="https://www.youtube.com/embed/i_dN6mDdzY4?si=q25bQHB-pFDWDvVh&amp;start=1"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                        allowfullscreen></iframe>
+                                </div>
+                                <div class="tab-pane fade" id="tanjin5" role="tabpanel" aria-labelledby="tanjin5-tab"
+                                    tabindex="0">
+                                    <iframe width="100%" height="400"
+                                        src="https://www.youtube.com/embed/MFLJQV9elnw?si=3LmsiIHKGlwPkcvj&amp;start=1"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                        allowfullscreen></iframe>
+                                </div>
+                                <div class="tab-pane fade" id="tanjin6" role="tabpanel" aria-labelledby="tanjin6-tab"
+                                    tabindex="0">
+                                    <iframe width="100%" height="400"
+                                        src="https://www.youtube.com/embed/aWr_BkBC8Rc?si=qD7jWtfeKa37Tkz9&amp;start=1"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                        allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-5">
+                            <div class="nav flex-column nav-pills me-3 tv__news__tisha" id="v-pills-tab" role="tablist"
+                                aria-orientation="vertical">
+                                <div class="nav-link active" id="tanjin1-tab" data-bs-toggle="pill"
+                                    data-bs-target="#tanjin1" role="tab" aria-controls="v-pills-home"
+                                    aria-selected="true">
+                                    বহুমাত্রিক তিশা | ক্যাফে লাইভ
+                                </div>
+                                <div class="nav-link" id="tanjin2-tab" data-bs-toggle="pill" data-bs-target="#tanjin2"
+                                    role="tab" aria-controls="tanjin2" aria-selected="false">
+                                    চোখ দেখে মুহূর্তেই যাকে চিনে ফেললেন তানজিন তিশা | Tanjin Tisha | Channel 24
+                                </div>
+                                <div class="nav-link" id="tanjin3-tab" data-bs-toggle="pill" data-bs-target="#tanjin3"
+                                    role="tab" aria-controls="tanjin3" aria-selected="false">
+                                    Barsaat কোণ মেহেদি প্রেজেন্টস ঈদ স্পেশাল শাইন উইথ শ্রাবণ্য | 24 April 2023 | Channel
+                                    24
+                                </div>
+                                <div class="nav-link" id="tanjin4-tab" data-bs-toggle="pill" data-bs-target="#tanjin4"
+                                    role="tab" aria-controls="tanjin4" aria-selected="false">
+                                    1 TAKE Q/A With Tanjin Tisha | Shafi Ahmed | Channel i TV
+                                </div>
+                                <div class="nav-link" id="tanjin5-tab" data-bs-toggle="pill" data-bs-target="#tanjin5"
+                                    role="tab" aria-controls="tanjin5" aria-selected="false">
+                                    Tanjin Tisha Exclusive Dance Performance | 10th Rtv Star Award 2020 | Rtv
+                                    Entertainment
+                                </div>
+                                <div class="nav-link" id="tanjin6-tab" data-bs-toggle="pill" data-bs-target="#tanjin6"
+                                    role="tab" aria-controls="tanjin6" aria-selected="false">
+                                    Taroka Kothon | তারকা কথন | Tanjin Tisha | Channel i Shows
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- tv end -->
+
+    <!-- about start -->
+    <div class="about__area section__padding" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7">
+                    <div class="section__title m-0">
+                        <h2><span>A</span>bout</h2>
+                        <p>তানজিন তিশা একজন বাংলাদেশি অভিনেত্রী, মডেল এবং টেলিভিশন উপস্থাপিকা। তিনি টেলিভিশন নাটক ও
+                            ধারাবাহিকে অভিনয় করেন। ইউ-টার্ন নাটকে অভিনয়ের জন্য তিনি সেরা নবীন অভিনয়শিল্পী বিভাগে
+                            মেরিল প্রথম আলো পুরস্কার লাভ করেন।
+                            <a href="./biography">বিস্তারিত</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 offset-lg-1">
+                    <div class="about_photo">
+                        <img src="assets/image/about/2.jpg" alt="">
+                        <img src="assets/image/about/3.jpg" alt="">
+                        <img src="assets/image/about/4.jpg" alt="">
+                        <img src="assets/image/about/5.jpg" alt="">
+                        <img src="assets/image/about/6.jpg" alt="">
+                        <img src="assets/image/about/7.jpg" alt="">
+                        <img src="assets/image/about/8.jpg" alt="">
+                        <img src="assets/image/about/9.jpg" alt="">
+                        <img src="assets/image/about/10.jpg" alt="">
+                        <img src="assets/image/about/11.jpg" alt="">
+                        <img src="assets/image/about/12.jpg" alt="">
+                        <img src="assets/image/about/13.jpg" alt="">
+                        <img src="assets/image/about/14.jpg" alt="">
+                        <img src="assets/image/about/15.jpg" alt="">
+                        <img src="assets/image/about/16.jpg" alt="">
+                        <img src="assets/image/about/17.jpg" alt="">
+                        <img src="assets/image/about/18.jpg" alt="">
+                        <img src="assets/image/about/19.jpg" alt="">
+                        <img src="assets/image/about/20.jpg" alt="">
+                        <img src="assets/image/about/21.jpg" alt="">
+                        <img src="assets/image/about/22.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- about end -->
+
+    <!-- main section end -->
+
+    <!-- footer sectin start -->
+    <footer>
+        <div class="footer-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="text-center text-white mb-5">Join with <span>Tisha</span></h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/TanjinTishaTT" target="_blank"><i
+                                    class="fab fa-facebook"></i></a>
+                            <a href="https://www.youtube.com/channel/UCNK-u-Is7k00Jq8QsdbhrDw" target="_blank"><i
+                                    class="fab fa-youtube"></i></a>
+                            <a href="https://www.instagram.com/tanjintisha/?hl=en" target="_blank"><i
+                                    class="fab fa-instagram"></i></a>
+                            <a href="https://www.tiktok.com/discover/Tanjin-tisha-tiktok" target="_blank"><i
+                                    class="fab fa-tiktok"></i></a>
+                            <a href="https://twitter.com/Tanjin_Tisha_" target="_blank"><i
+                                    class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="footer-menu">
+                            <ul>
+                                <li><a href="./">home</a></li>
+                                <li><a href="./biography">biography</a></li>
+                                <li><a href="./awards">awards</a></li>
+                                <li><a href="./cover">cover</a></li>
+                                <li><a href="./tishatv">tisha tv </a></li>
+                                <li><a href="./tishanews">tisha news</a></li>
+                                <li><a href="./gallery">gallery</a></li>
+                                <li><a href="./contact">contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright-area pt-3 pb-3">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-md-6 col-sm-12 col-12">
+                        <p>Copyright ©
+                            <script>document.write(new Date().getFullYear())</script> All Rights Reserved
+                        </p>
+                    </div>
+                    <div class="col-md-6 col-sm-12 col-12 ">
+                        <span>Developed By <a href="https://classicit.com.bd/" target="_blank">Classic IT</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer sectin end -->
+
+
+    <!-- jquery link -->
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- slick slider -->
+    <script src="assets/js/slick.min.js"></script>
+    <!-- magmific popup -->
+    <script src="assets/js/magnific.min.js"></script>
+    <!-- animated-headline -->
+    <script src="assets/js/animated-headline.js"></script>
+    <!-- aos -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- main js -->
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>

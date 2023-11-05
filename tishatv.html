@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanjin Tisha</title>
+    <!-- link shortcut -->
+    <link rel="shortcut icon" href="assets/image/logo.png" type="image/x-icon">
+    <!-- bootstarp link -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <!-- magnific -->
+    <link rel="stylesheet" href="assets/css/magnificpopup.css">
+    <!-- slick slider -->
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- css file link -->
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+    <!-- header section -->
+    <header class="header_section">
+
+        <!-- main header -->
+        <div class="main_header">
+            <div class="container">
+                <div class="header_wrapper">
+                    <!-- logo -->
+                    <div class="logo">
+                        <a href="./" class="logo_image">
+                            <!-- logo imgae -->
+                            <img src="assets/image/logo.png" alt="tisha">
+                        </a>
+                    </div>
+                    <!-- header nav -->
+                    <nav class="header_nav d-none d-lg-block">
+                        <ul class="d-flex gap-4 align-items-center">
+                            <li class="header_nav_item">
+                                <a class="header_nav_link">about <span><i
+                                            class="fa-solid fa-chevron-down"></i></span></a>
+                                <!-- sub menu -->
+                                <div class="sub_menu">
+                                    <!-- sub menu -->
+                                    <ul class="sub_menu_list">
+                                        <li class="sub_menu_item">
+                                            <a href="biography" class="sub_menu_link"> <span></span>biography</a>
+                                        </li>
+                                        <li class="sub_menu_item">
+                                            <a href="./awards" class="sub_menu_link"> <span></span>awards</a>
+                                        </li>
+                                        <li class="sub_menu_item">
+                                            <a href="./cover" class="sub_menu_link"> <span></span>cover</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="header_nav_item">
+                                <a class="header_nav_link" href="./tishatv">tisha tv</a>
+                            </li>
+                            <li class="header_nav_item">
+                                <a class="header_nav_link" href="./tishanews">tisha news</a>
+                            </li>
+                            <li class="header_nav_item">
+                                <a class="header_nav_link" href="./gallery">gallery</a>
+                            </li>
+                            <li class="header_nav_item">
+                                <a class="header_nav_link" href="./contact">contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- toggler -->
+                    <div class="toggle_nav d-lg-none" data-bs-toggle="offcanvas" data-bs-target="#toggle_nav">
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- mobile nav -->
+        <div class="offcanvas offcanvas-start" id="toggle_nav">
+            <!-- offcanvas header -->
+            <div class="offcanvas-header">
+                <div class="nav_logo">
+                    <a href="./">
+                        <img src="assets/image/logo.png" alt="tisha">
+                    </a>
+                </div>
+                <button type="button btn" data-bs-dismiss="offcanvas"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <!-- offcanvas body -->
+            <div class="offcanvas-body">
+                <div class="mobile_nav">
+                    <ul>
+                        <!-- item -->
+                        <li>
+                            <a href="./">
+                                <p class="d-flex gap-2">
+                                    <span>home</span>
+                                </p>
+                            </a>
+                        </li>
+                        <!-- item -->
+                        <li>
+                            <a class="dropdown_button">
+                                <p class="d-flex gap-2">
+                                    <span>about</span>
+                                </p>
+                                <span><i class="fa-solid fa-chevron-down"></i></span>
+                            </a>
+                            <!-- mobile sub nav -->
+                            <div class="mobile_suv_nav dropdown_sub">
+                                <ul>
+                                    <!-- Sub Nav list -->
+                                    <li>
+                                        <a href="./biography">
+                                            <p class="d-flex gap-2">
+                                                <span class="subnav_text">biography</span>
+                                            </p>
+                                        </a>
+                                    </li>
+                                    <!-- Sub Nav list -->
+                                    <li>
+                                        <a href="./awards">
+                                            <p class="d-flex gap-2">
+                                                <span class="subnav_text">awards</span>
+                                            </p>
+                                        </a>
+                                    </li>
+                                    <!-- Sub Nav list -->
+                                    <li>
+                                        <a href="./cover">
+                                            <p class="d-flex gap-2">
+                                                <span class="subnav_text">cover</span>
+                                            </p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <!-- item -->
+                        <li>
+                            <a href="./tishatv">
+                                <p class="d-flex gap-2">
+                                    <span>tisha tv</span>
+                                </p>
+                            </a>
+                        </li>
+                        <!-- item -->
+                        <li>
+                            <a href="./tishanews">
+                                <p class="d-flex gap-2">
+                                    <span>tisha news</span>
+                                </p>
+                            </a>
+                        </li>
+                        <!-- item -->
+                        <li>
+                            <a href="./contact">
+                                <p class="d-flex gap-2">
+                                    <span>contact</span>
+                                </p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <!-- header section end -->
+
+    <!-- main section start -->
+
+    <!-- biography start -->
+    <div class="biography__area" data-aos="fade-up" data-aos-duration="3000">
+        <div class="container">
+            <div class="row">
+                <div class="about__title">
+                    <h1>tanjin tisha</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- biography end -->
+
+    <!-- filmography start -->
+    <div class="filmography__area section__padding" data-aos="fade-up" data-aos-duration="3000">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section__title">
+                        <h2><span>T</span>isha's Natok</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row gy-3">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="single_tours">
+                        <div class="tours_photo">
+                            <img src="assets/image/gallery/1.jpg" alt="">
+                        </div>
+                        <a href="https://www.youtube.com/watch?v=QmdmGYoJVXs" class="popup-video">
+                            <i class="fa fa-play play-icon"></i>
+                            <h6>Bangla Natok - Apon kotha "আপন কথা " l Richi Solaiman , <strong
+                                    style="color: #FC00C5;">Tanjin Tisha</strong>, Mizan, Robin l NTV Natok</h6>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="single_tours">
+                        <div class="tours_photo">
+                            <img src="assets/image/gallery/80.jpg" alt="">
+                        </div>
+                        <a href="https://www.youtube.com/watch?v=jzTjcxEJTkU" class="popup-video">
+                            <i class="fa fa-play play-icon"></i>
+                            <h6>Moyna Tia | Niloy | <strong style="color: #FC00C5;">Tanjin Tisha</strong> | Sohan | Jui
+                                | Asian
+                                TV HD</h6>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="single_tours">
+                        <div class="tours_photo">
+                            <img src="assets/image/gallery/3.jpg" alt="">
+                        </div>
+                        <a href="https://www.youtube.com/watch?v=2VOjJ9mUIhQ" class="popup-video">
+                            <i class="fa fa-play play-icon"></i>
+                            <h6>Shonali Roddur | Apurba, <strong style="color: #FC00C5;">Tanjin Tisha</strong> | New
+                                Bangla Romantic Thriller
+                                natok 2020 |
+                                Maasranga TV</h6>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="single_tours">
+                        <div class="tours_photo">
+                            <img src="assets/image/gallery/4.jpg" alt="">
+                        </div>
+                        <a href="https://www.youtube.com/watch?v=b5cyclN2j34" class="popup-video">
+                            <i class="fa fa-play play-icon"></i>
+                            <h6>Palta Hawa | Mir Sabbir, Siddik, Arfan, <strong style="color: #FC00C5;">Tanjin
+                                    Tisha</strong>, Urmila | New
+                                Bangla Natok</h6>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="single_tours">
+                        <div class="tours_photo">
+                            <img src="assets/image/gallery/5.jpg" alt="">
+                        </div>
+                        <a href="https://www.youtube.com/watch?v=__a5ky5Ao2M" class="popup-video">
+                            <i class="fa fa-play play-icon"></i>
+                            <h6>Kolizar Adkhan | কলিজার আধখান | Musfiq R. Farhan | <strong
+                                    style="color: #FC00C5;">Tanjin
+                                    Tisha</strong> | New Bangla Natok</h6>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="single_tours">
+                        <div class="tours_photo">
+                            <img src="assets/image/gallery/6.jpg" alt="">
+                        </div>
+                        <a href="https://www.youtube.com/watch?v=y80X-8VD8fU" class="popup-video">
+                            <i class="fa fa-play play-icon"></i>
+                            <h6>Putuler Songshar | পুতুলের সংসার | <strong style="color: #FC00C5;">Tanjin
+                                    Tisha</strong> | Sohel Mondal | Rinku | Bangla New Natok</h6>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="single_tours">
+                        <div class="tours_photo">
+                            <img src="assets/image/gallery/7.jpg" alt="">
+                        </div>
+                        <a href="https://www.youtube.com/watch?v=eKlDfQ4wLAU" class="popup-video">
+                            <i class="fa fa-play play-icon"></i>
+                            <h6>Sweet Home | Full Natok | Musfiq R. Farhan | <strong style="color: #FC00C5;">Tanjin
+                                    Tisha</strong> | Mohidul Mohim | Bangla Natok</h6>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="single_tours">
+                        <div class="tours_photo">
+                            <img src="assets/image/gallery/8.jpg" alt="">
+                        </div>
+                        <a href="https://www.youtube.com/watch?v=Bet7OhWi3Aw" class="popup-video">
+                            <i class="fa fa-play play-icon"></i>
+                            <h6>Evabeo Valobasha Jay | Full Natok | Musfiq R. Farhan | <strong
+                                    style="color: #FC00C5;">Tanjin
+                                    Tisha</strong> | Mahmud Mahin</h6>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="single_tours">
+                        <div class="tours_photo">
+                            <img src="assets/image/gallery/9.jpg" alt="">
+                        </div>
+                        <a href="https://www.youtube.com/watch?v=K4D_QK4LEDs" class="popup-video">
+                            <i class="fa fa-play play-icon"></i>
+                            <h6>তোমার হতে চাই | Tomar Hote Chai | Bangla Natok | Tawsif Mahbub | <strong
+                                    style="color: #FC00C5;">Tanjin
+                                    Tisha</strong> |New Bangla Natok</h6>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="single_tours">
+                        <div class="tours_photo">
+                            <img src="assets/image/gallery/10.jpg" alt="">
+                        </div>
+                        <a href="https://www.youtube.com/watch?v=_nUs1uU6r3U" class="popup-video">
+                            <i class="fa fa-play play-icon"></i>
+                            <h6>Konjush 2 | কঞ্জুস 2 | Musfiq R. Farhan | <strong style="color: #FC00C5;">Tanjin
+                                    Tisha</strong> | Mohidul Mohim| Full Drama|Eid New Natok</h6>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="single_tours">
+                        <div class="tours_photo">
+                            <img src="assets/image/gallery/11.jpg" alt="">
+                        </div>
+                        <a href="https://www.youtube.com/watch?v=cGdQX0hwdKM" class="popup-video">
+                            <i class="fa fa-play play-icon"></i>
+                            <h6>I Am Divorced | আই এম ডিভোর্সড | Musfiq R Farhan | <strong
+                                    style="color: #FC00C5;">Tanjin
+                                    Tisha</strong> | Hime</h6>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="single_tours">
+                        <div class="tours_photo">
+                            <img src="assets/image/gallery/12.jpg" alt="">
+                        </div>
+                        <a href="https://www.youtube.com/watch?v=USyKq4hDv8w" class="popup-video">
+                            <i class="fa fa-play play-icon"></i>
+                            <h6>Bou Tumi Emon Ken | বউ তুমি এমন ক্যান | Full Natok | Apurba | <strong
+                                    style="color: #FC00C5;">Tanjin
+                                    Tisha</strong> | Bangla
+                                Natok</h6>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="single_tours">
+                        <div class="tours_photo">
+                            <img src="assets/image/gallery/76.jpg" alt="">
+                        </div>
+                        <a href="https://www.youtube.com/watch?v=6dUe7Izwb7w" class="popup-video">
+                            <i class="fa fa-play play-icon"></i>
+                            <h6>Wife of the year | Musfiq R Farhan | <strong style="color: #FC00C5;">Tanjin
+                                    Tisha</strong> | Mahmud Mahin | Bangla New Natok 2023
+                            </h6>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="single_tours">
+                        <div class="tours_photo">
+                            <img src="assets/image/gallery/14.jpg" alt="">
+                        </div>
+                        <a href="https://www.youtube.com/watch?v=IdYroUF8QbY" class="popup-video">
+                            <i class="fa fa-play play-icon"></i>
+                            <h6>Rickshaw Girl | রিক্সা গার্ল | Eid Natok 2022 | <strong style="color: #FC00C5;">Tanjin
+                                    Tisha</strong> | Shohel Mondol | Rafat
+                                Mozumder Rinku</h6>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="single_tours">
+                        <div class="tours_photo">
+                            <img src="assets/image/gallery/15.jpg" alt="">
+                        </div>
+                        <a href="https://www.youtube.com/watch?v=YYV2TCK09c8" class="popup-video">
+                            <i class="fa fa-play play-icon"></i>
+                            <h6>Dowa | দোয়া | Full Natok | Musfiq R. Farhan | <strong style="color: #FC00C5;">Tanjin
+                                    Tisha</strong> | Mahmudur Rahman Hime |
+                                Dayal Saha</h6>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="single_tours">
+                        <div class="tours_photo">
+                            <img src="assets/image/gallery/16.jpg" alt="">
+                        </div>
+                        <a href="https://www.youtube.com/watch?v=BGaUcYvoqr4" class="popup-video">
+                            <i class="fa fa-play play-icon"></i>
+                            <h6>Ekbar Bolo Bhalobashi | Bangla Natok 2020 | Afran Nisho | <strong
+                                    style="color: #FC00C5;">Tanjin Tisha</strong> | Bangla New
+                                Natok</h6>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="single_tours">
+                        <div class="tours_photo">
+                            <img src="assets/image/gallery/17.jpg" alt="">
+                        </div>
+                        <a href="https://www.youtube.com/watch?v=2aXwbqVyS6g" class="popup-video">
+                            <i class="fa fa-play play-icon"></i>
+                            <h6>ভালোবাসার মায়া | Valobashar Maya | Apurba | <strong style="color: #FC00C5;">Tanjin
+                                    Tisha</strong> | Bangla New Natok 2023</h6>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="single_tours">
+                        <div class="tours_photo">
+                            <img src="assets/image/gallery/120.jpg" alt="">
+                        </div>
+                        <a href="https://www.youtube.com/watch?v=vxUEporSDd0" class="popup-video">
+                            <i class="fa fa-play play-icon"></i>
+                            <h6>Dorod | দরদ | Full Natok | Musfiq R. Farhan | <strong style="color: #FC00C5;">Tanjin
+                                    Tisha</strong> | Mohidul Mohim | Bangla
+                                Natok</h6>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="single_tours">
+                        <div class="tours_photo">
+                            <img src="assets/image/gallery/18.jpg" alt="">
+                        </div>
+                        <a href="https://www.youtube.com/watch?v=zlk5-DUSEWc" class="popup-video">
+                            <i class="fa fa-play play-icon"></i>
+                            <h6>Prem Olpo Solpo | Full Natok | Musfiq R. Farhan | <strong style="color: #FC00C5;">Tanjin
+                                    Tisha</strong> | Mahmud Mahin | Bangla
+                                Natok</h6>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="single_tours">
+                        <div class="tours_photo">
+                            <img src="assets/image/gallery/19.jpg" alt="">
+                        </div>
+                        <a href="https://www.youtube.com/watch?v=qUTahLRIYT4" class="popup-video">
+                            <i class="fa fa-play play-icon"></i>
+                            <h6>Backdated | ব্যাকডেটেড | Apurba | <strong style="color: #FC00C5;">Tanjin Tisha</strong>
+                                | Sarika | Bangla Telefilm</h6>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="single_tours">
+                        <div class="tours_photo">
+                            <img src="assets/image/gallery/20.jpg" alt="">
+                        </div>
+                        <a href="https://www.youtube.com/watch?v=B6hOuNz2cb4" class="popup-video">
+                            <i class="fa fa-play play-icon"></i>
+                            <h6>Arrange Love | Apurba | <strong style="color: #FC00C5;">Tanjin Tisha</strong> | Rubel
+                                Hasan | Eid Natok 2020 | Dhruba Tv Drama
+                            </h6>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="single_tours">
+                        <div class="tours_photo">
+                            <img src="assets/image/gallery/1.jpg" alt="">
+                        </div>
+                        <a href="https://www.youtube.com/watch?v=rlk3UoqOz8o" class="popup-video">
+                            <i class="fa fa-play play-icon"></i>
+                            <h6>পিরিতের বন্ধু | Piriter Bondhu | Afran Nisho | <strong style="color: #FC00C5;">Tanjin
+                                    Tisha</strong> | Bangla New Natok 2023
+                            </h6>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="single_tours">
+                        <div class="tours_photo">
+                            <img src="assets/image/gallery/28.jpg" alt="">
+                        </div>
+                        <a href="https://www.youtube.com/watch?v=qMWL8kGW9jY" class="popup-video">
+                            <i class="fa fa-play play-icon"></i>
+                            <h6>মন দিয়ে ভালোবাসা হয়, পোষাকে না। | AFRAN NISHO & <strong style="color: #FC00C5;">Tanjin
+                                    Tisha</strong> | X boyfriend Natok
+                            </h6>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="single_tours">
+                        <div class="tours_photo">
+                            <img src="assets/image/gallery/23.jpg" alt="">
+                        </div>
+                        <a href="https://www.youtube.com/watch?v=YMmNNF7w9TU" class="popup-video">
+                            <i class="fa fa-play play-icon"></i>
+                            <h6>VERY RECENTLY | Apurba & <strong style="color: #FC00C5;">Tanjin Tisha</strong> | ভেরি
+                                রিসেন্টলি | Raz |Valentines Day Natok |
+                                GanerDali |</h6>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="single_tours">
+                        <div class="tours_photo">
+                            <img src="assets/image/gallery/24.jpg" alt="">
+                        </div>
+                        <a href="https://www.youtube.com/watch?v=IQv_dbsgKlo" class="popup-video">
+                            <i class="fa fa-play play-icon"></i>
+                            <h6>Kothay Khuji Tare | Full Natok | Musfiq R. Farhan | <strong
+                                    style="color: #FC00C5;">Tanjin Tisha</strong> | Mahmud Mahin | Natok
+                                2023</h6>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="single_tours">
+                        <div class="tours_photo">
+                            <img src="assets/image/gallery/25.jpg" alt="">
+                        </div>
+                        <a href="https://www.youtube.com/watch?v=Oiy7Mu8Vds8" class="popup-video">
+                            <i class="fa fa-play play-icon"></i>
+                            <h6>বেয়াই শুধু তোমাকেই চাই...| Love You Beyai | Musfiq R. Farhan | <strong
+                                    style="color: #FC00C5;">Tanjin Tisha</strong> | New Bangla
+                                Natok 2023</h6>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="single_tours">
+                        <div class="tours_photo">
+                            <img src="assets/image/gallery/26.jpg" alt="">
+                        </div>
+                        <a href="https://www.youtube.com/watch?v=ZtXEa68d5jY" class="popup-video">
+                            <i class="fa fa-play play-icon"></i>
+                            <h6>Shubho Jonmodin | Apurba, <strong style="color: #FC00C5;">Tanjin Tisha</strong>,
+                                Srabanti | New Bangla Natok 2019 | Maasranga TV
+                            </h6>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="single_tours">
+                        <div class="tours_photo">
+                            <img src="assets/image/gallery/27.jpg" alt="">
+                        </div>
+                        <a href="https://www.youtube.com/watch?v=bLIKP_nI_g8" class="popup-video">
+                            <i class="fa fa-play play-icon"></i>
+                            <h6>Shikhar Kotha | Jovan | <strong style="color: #FC00C5;">Tanjin Tisha</strong> | Suborna
+                                Mustafa | Mamunur Rashid | Bangla Natok
+                                2018 | Rtv</h6>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="single_tours">
+                        <div class="tours_photo">
+                            <img src="assets/image/gallery/28.jpg" alt="">
+                        </div>
+                        <a href="https://www.youtube.com/watch?v=0hjNAk-bb8Q" class="popup-video">
+                            <i class="fa fa-play play-icon"></i>
+                            <h6>সুন্দরীর প্রেমে পাগল যুবক | Natok Scene | Afran Nisho | <strong
+                                    style="color: #FC00C5;">Tanjin Tisha</strong> | Ekbar Bolo
+                                Bhalobashi</h6>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="single_tours">
+                        <div class="tours_photo">
+                            <img src="assets/image/gallery/29.jpg" alt="">
+                        </div>
+                        <a href="https://www.youtube.com/watch?v=3Baulx5h8jY" class="popup-video">
+                            <i class="fa fa-play play-icon"></i>
+                            <h6>Shop No 69 | শপ নাম্বার ৬৯ | Musfiq R. Farhan | <strong style="color: #FC00C5;">Tanjin
+                                    Tisha</strong> | Mahmud Mahin | Bangla New
+                                Natok 2023</h6>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="single_tours">
+                        <div class="tours_photo">
+                            <img src="assets/image/gallery/30.jpg" alt="">
+                        </div>
+                        <a href="https://www.youtube.com/watch?v=qgFqWUaj8VA" class="popup-video">
+                            <i class="fa fa-play play-icon"></i>
+                            <h6>আঁধার | Aadhar | Eid Special Telefilm 2023 | Tawsif Mahbub | <strong
+                                    style="color: #FC00C5;">Tanjin
+                                    Tisha</strong> | Vicky Zahed</h6>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="single_tours">
+                        <div class="tours_photo">
+                            <img src="assets/image/gallery/31.jpg" alt="">
+                        </div>
+                        <a href="https://www.youtube.com/watch?v=BhOLMoChY1k" class="popup-video">
+                            <i class="fa fa-play play-icon"></i>
+                            <h6>#FiftyFifty | ফিফটি ফিফটি | Fifty Fifty | Tawsif, <strong style="color: #FC00C5;">Tanjin
+                                    Tisha</strong> | EID Natok 2023 | Bangla Natok</h6>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="single_tours">
+                        <div class="tours_photo">
+                            <img src="assets/image/gallery/32.jpg" alt="">
+                        </div>
+                        <a href="https://www.youtube.com/watch?v=T83axRV9PrY" class="popup-video">
+                            <i class="fa fa-play play-icon"></i>
+                            <h6>Araale Araale-আড়ালে আড়ালে | Ajoy Roy & Antora Mondal | Musfiq R. Farhan | <strong
+                                    style="color: #FC00C5;">Tanjin
+                                    Tisha</strong> | Preetom</h6>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="single_tours">
+                        <div class="tours_photo">
+                            <img src="assets/image/gallery/33.jpg" alt="">
+                        </div>
+                        <a href="https://www.youtube.com/watch?v=BQuv6lCwCzs" class="popup-video">
+                            <i class="fa fa-play play-icon"></i>
+                            <h6>Neel Oporajita | নীল অপরাজিতা | Musfiq R. Farhan | <strong
+                                    style="color: #FC00C5;">Tanjin
+                                    Tisha</strong> | Jahid Preetom|New Web Fiction 2023</h6>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="single_tours">
+                        <div class="tours_photo">
+                            <img src="assets/image/gallery/34.jpg" alt="">
+                        </div>
+                        <a href="https://www.youtube.com/watch?v=szC5VX-UO2A" class="popup-video">
+                            <i class="fa fa-play play-icon"></i>
+                            <h6>Tiffin Box | টিফিন বক্স | Eid Natok | Tawsif Mahbub | <strong
+                                    style="color: #FC00C5;">Tanjin
+                                    Tisha</strong> | New Bangla Natok 2023</h6>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- filmography end -->
+
+
+    <!-- main section end -->
+
+    <!-- footer sectin start -->
+    <footer>
+        <div class="footer-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="text-center text-white mb-5">Join with <span>Tisha</span></h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/TanjinTishaTT" target="_blank"><i
+                                    class="fab fa-facebook"></i></a>
+                            <a href="https://www.youtube.com/channel/UCNK-u-Is7k00Jq8QsdbhrDw" target="_blank"><i
+                                    class="fab fa-youtube"></i></a>
+                            <a href="https://www.instagram.com/tanjintisha/?hl=en" target="_blank"><i
+                                    class="fab fa-instagram"></i></a>
+                            <a href="https://www.tiktok.com/discover/Tanjin-tisha-tiktok" target="_blank"><i
+                                    class="fab fa-tiktok"></i></a>
+                            <a href="https://twitter.com/Tanjin_Tisha_" target="_blank"><i
+                                    class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="footer-menu">
+                            <ul>
+                                <li><a href="">home</a></li>
+                                <li><a href="./biography">biography</a></li>
+                                <li><a href="./awards">awards</a></li>
+                                <li><a href="./cover">cover</a></li>
+                                <li><a href="./tishatv">tisha tv </a></li>
+                                <li><a href="./tishanews">tisha news</a></li>
+                                <li><a href="./gallery">gallery</a></li>
+                                <li><a href="./contact">contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright-area pt-3 pb-3">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-md-6 col-sm-12 col-12">
+                        <p>Copyright ©
+                            <script>document.write(new Date().getFullYear())</script> All Rights Reserved
+                        </p>
+                    </div>
+                    <div class="col-md-6 col-sm-12 col-12 ">
+                        <span>Developed By <a href="https://classicit.com.bd/" target="_blank">Classic IT</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer sectin end -->
+
+
+    <!-- jquery link -->
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- slick slider -->
+    <script src="assets/js/slick.min.js"></script>
+    <!-- magmific popup -->
+    <script src="assets/js/magnific.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <!-- main js -->
+    <script script src="assets/js/app.js"></script>
+
+    <script>
+        var tl = gsap.timeline({ repeat: -1 });
+        tl.to(".about__title h1", 30, { backgroundPosition: "-960px 0" });
+
+    </script>
+
+</body>
+
+</html>

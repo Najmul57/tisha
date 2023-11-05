@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanjin Tisha</title>
+    <!-- link shortcut -->
+    <link rel="shortcut icon" href="assets/image/logo.png" type="image/x-icon">
+    <!-- bootstarp link -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <!-- magnific -->
+    <link rel="stylesheet" href="assets/css/magnificpopup.css">
+    <!-- slick slider -->
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- css file link -->
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+
+<body>
+    <!-- header section -->
+    <header class="header_section">
+
+        <!-- main header -->
+        <div class="main_header">
+            <div class="container">
+                <div class="header_wrapper">
+                    <!-- logo -->
+                    <div class="logo">
+                        <a href="./" class="logo_image">
+                            <!-- logo imgae -->
+                            <img src="assets/image/logo.png" alt="tisha">
+                        </a>
+                    </div>
+                    <!-- header nav -->
+                    <nav class="header_nav d-none d-lg-block">
+                        <ul class="d-flex gap-4 align-items-center">
+                            <li class="header_nav_item">
+                                <a class="header_nav_link">about <span><i
+                                            class="fa-solid fa-chevron-down"></i></span></a>
+                                <!-- sub menu -->
+                                <div class="sub_menu">
+                                    <!-- sub menu -->
+                                    <ul class="sub_menu_list">
+                                        <li class="sub_menu_item">
+                                            <a href="./biography" class="sub_menu_link"> <span></span>biography</a>
+                                        </li>
+                                        <li class="sub_menu_item">
+                                            <a href="./awards" class="sub_menu_link"> <span></span>awards</a>
+                                        </li>
+                                        <li class="sub_menu_item">
+                                            <a href="./cover" class="sub_menu_link"> <span></span>cover</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="header_nav_item">
+                                <a class="header_nav_link" href="tishatv">tisha tv</a>
+                            </li>
+                            <li class="header_nav_item">
+                                <a class="header_nav_link" href="tishanews">tisha news</a>
+                            </li>
+                            <li class="header_nav_item">
+                                <a class="header_nav_link" href="gallery">gallery</a>
+                            </li>
+                            <li class="header_nav_item">
+                                <a class="header_nav_link" href="contact">contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- toggler -->
+                    <div class="toggle_nav d-lg-none" data-bs-toggle="offcanvas" data-bs-target="#toggle_nav">
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- mobile nav -->
+        <div class="offcanvas offcanvas-start" id="toggle_nav">
+            <!-- offcanvas header -->
+            <div class="offcanvas-header">
+                <div class="nav_logo">
+                    <a href="./">
+                        <img src="assets/image/logo.png" alt="tisha">
+                    </a>
+                </div>
+                <button type="button btn" data-bs-dismiss="offcanvas"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <!-- offcanvas body -->
+            <div class="offcanvas-body">
+                <div class="mobile_nav">
+                    <ul>
+                        <!-- item -->
+                        <li>
+                            <a href="./">
+                                <p class="d-flex gap-2">
+                                    <span>home</span>
+                                </p>
+                            </a>
+                        </li>
+                        <!-- item -->
+                        <li>
+                            <a class="dropdown_button">
+                                <p class="d-flex gap-2">
+                                    <span>about</span>
+                                </p>
+                                <span><i class="fa-solid fa-chevron-down"></i></span>
+                            </a>
+                            <!-- mobile sub nav -->
+                            <div class="mobile_suv_nav dropdown_sub">
+                                <ul>
+                                    <!-- Sub Nav list -->
+                                    <li>
+                                        <a href="./biography">
+                                            <p class="d-flex gap-2">
+                                                <span class="subnav_text">biography</span>
+                                            </p>
+                                        </a>
+                                    </li>
+                                    <!-- Sub Nav list -->
+                                    <li>
+                                        <a href="./awards">
+                                            <p class="d-flex gap-2">
+                                                <span class="subnav_text">awards</span>
+                                            </p>
+                                        </a>
+                                    </li>
+                                    <!-- Sub Nav list -->
+                                    <li>
+                                        <a href="./cover">
+                                            <p class="d-flex gap-2">
+                                                <span class="subnav_text">cover</span>
+                                            </p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <!-- item -->
+                        <li>
+                            <a href="./tishatv">
+                                <p class="d-flex gap-2">
+                                    <span>tisha tv</span>
+                                </p>
+                            </a>
+                        </li>
+                        <!-- item -->
+                        <li>
+                            <a href="./tishanews">
+                                <p class="d-flex gap-2">
+                                    <span>tisha news</span>
+                                </p>
+                            </a>
+                        </li>
+                        <!-- item -->
+                        <li>
+                            <a href="./contact">
+                                <p class="d-flex gap-2">
+                                    <span>contact</span>
+                                </p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <!-- header section end -->
+
+    <!-- main section start -->
+
+    <!-- biography start -->
+    <div class="biography__area" data-aos="fade-up" data-aos-duration="3000">
+        <div class="container">
+            <div class="row">
+                <div class="about__title">
+                    <h1>tanjin tisha</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- biography end -->
+
+    <!-- bg video start -->
+    <div class="bg-video  section__padding" data-aos="fade-up" data-aos-duration="3000">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-8">
+                    <video class="w-100 object-fit-cover" src="assets/image/bg-video.mp4" autoplay="" loop="" muted=""
+                        type="video/mp4"></video>
+                </div>
+                <div class="col-xl-4">
+                    <p class="card p-3"><strong style="color: var(--main-color);">তানজিন তিশা</strong> একজন বাংলাদেশি
+                        অভিনেত্রী,
+                        মডেল এবং টেলিভিশন উপস্থাপিকা। তিনি টেলিভিশন নাটক ও
+                        ধারাবাহিকে
+                        অভিনয় করেন। তিশা ছোটকাল থেকেই নাচ শিখেছিলেন কিন্তু পড়ালেখার জন্য তার পরিবার তা বন্ধ করে দেয়।
+                        তবে তিনি
+                        বাংলাদেশ ললিতকলা একাডেমি এবং হিন্দোল একাডেমি থেকে টানা চার বছর নাচের প্রশিক্ষণ নিয়েছেন। ফ্যাশন
+                        শুট ও
+                        র‍্যাম্প মডেলিংয়ের মাধ্যমে তিশার কর্মজীবন শুরু হয়। তার ক্যারিয়ার শুরু অমিতাভ রেজা চৌধুরী
+                        পরিচালিত
+                        রবির একটি বিজ্ঞাপনে অংশগ্রহণ করার মাধ্যমে। এরপর থেকে আপন কথা,ময়না টিয়া, সোনালী রোদ্দুর, কাঠ
+                        গোলাপের
+                        বসন্ত, পাল্টা হাওয়া, অমীমাংসিত সত্য সহ আরো অনেক নাটকে অভিনয় করে দর্শক সারিতে গিয়েছেন। ২০১৪
+                        সালে সেরা
+                        নবীন অভিনয়শিল্পীর তালিকায় মেরিল প্রথম আলো অ্যাওয়ার্ডে ভূষিত হয়েছেন। এবং এখন পর্যন্ত দর্শকদের
+                        একটার
+                        পর একটা ভালো কাজ উপহার দিয়ে যাচ্ছেন </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- bg video start -->
+
+    <!-- quoto start -->
+    <div class="quoto__area section__padding" data-aos="fade-up" data-aos-duration="3000">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1>মানুষের জীবনকে স্পর্শ করার এবং প্রভাবিত করার ক্ষমতা
+                        রয়েছে। এটি বিশ্বকে পরিবর্তন করার ক্ষমতা
+                        রাখে!!! <span>tanjin tisha</span></h1>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- quoto end -->
+
+
+    <!-- review start -->
+    <div class="review section__padding" data-aos="fade-up" data-aos-duration="3000">
+        <div class="container">
+            <div class="review__active">
+                <div class="row g-0 align-items-center single__review">
+                    <div class="col-lg-6">
+                        <div class="review__photo">
+                            <img src="assets/image/biography/Tanjin Tisha-81.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="review__content card p-5">
+                            <div class="section__title">
+                                <h2><span>T</span>isha</h2>
+                                <p>কিশোরী মেয়েটি ভালবাসে হাত ধরে পালিয়ে যায় স্বল্প সময়ে পরিচিত একজনের সাথে। কিন্তু,
+                                    মেয়েটির মনে যে ভালোবাসার ফুল ফুটেছিল সেই দানা কি বেঁধেছিল লোকটির ও বুকে? হয়তো না।
+                                    মেয়েটি বিক্রি হয় পতিতা পল্লীতে। তারপরের ঘটনাগুলোই সাজিয়ে তৈরি হয় 'পুতুলের সংসার'।
+                                    নাটকটির গল্প ভাবনা আহমেদ তাওকীর, রচনা করেছেন অর্ক মোস্তফা ও আহমেদ তাওকীর।</p>
+                                <!-- <div class="review_author">
+                                    <h5>Rafat Mozumder Rinku<span>Film Director</span></h5>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-0 align-items-center single__review">
+                    <div class="col-lg-6">
+                        <div class="review__photo">
+                            <img src="assets/image/biography/Tanjin Tisha-82.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="review__content card p-5">
+                            <div class="section__title">
+                                <h2><span>T</span>isha</h2>
+                                <p>এখনকার নাটকে ঘুরেফিরে আসে প্রেমের গল্প। দুজন ছেলে-মেয়ের ভালোবাসা কিংবা এ সংক্রান্ত
+                                    সংকট ফুটিয়ে তোলা হয় অধিকাংশ নাটকে। ব্যতিক্রমী গল্প খুব একটা দেখা যায় না। চেনা ছকের
+                                    বাইরে কাজ করতে সচরাচর আগ্রহীও নন অনেক নির্মাতা, শিল্পী ও প্রযোজক। এ দিক দিয়ে একটি
+                                    ভিন্নরকম নাটক ‘শরবত’</p>
+                                <!-- <div class="review_author">
+                                    <h5>Taman Islam <span>Producer</span></h5>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-0 align-items-center single__review">
+                    <div class="col-lg-6">
+                        <div class="review__photo">
+                            <img src="assets/image/biography/Tanjin Tisha-83.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="review__content card p-5">
+                            <div class="section__title">
+                                <h2><span>T</span>isha</h2>
+                                <p>I am Divorced - পরিচালনয় হিমি।
+                                    নাটকটা দারুন লাগলো,,, 👌👌
+                                    সমাজে অনেকের ডিভোর্স হওয়ার কারনে অনেক নারী সমাজের চোখে খারাপ হয়ে থাকে। সেটা এই নাটকে
+                                    বাস্তব স্মর্পকে তুলে ধরেছে। সমাজে কিছু মানুষ আছে ডিভোর্স হয় এমন নারী কে উক্তাত্য
+                                    করে। এমন কি নিজের পরিবার ও ভালো চোখে দেখতে পারে না। নাটকটা বাস্তব মুখী একজন নারীর
+                                    ডিভোর্স হলে সমাজে কিভাবে দেখে সেটা নাটক না দেখলে বুঝতে পারবেন না। বেশি কিছু বলতে চাই
+                                    না দেখতে পারেন।</p>
+                                <!-- <div class="review_author">
+                                    <h5>Mahmudur Rahman Hime<span>Film Director </span></h5>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- review end -->
+
+    <!-- tours start -->
+    <div class="tours__area section__padding" data-aos="fade-up" data-aos-duration="3000">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section__title">
+                        <h2><span>T</span>isha's Tours</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row gy-3">
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="single_tours">
+                        <div class="tours_photo">
+                            <img src="assets/image/about/6.jpg" alt="">
+                        </div>
+                        <a href="https://www.youtube.com/watch?v=u_GoHRWojbs" class="popup-video">
+                            <i class="fa fa-play play-icon"></i>
+                            <h6>Sky above, sand below, peace within ☀️🌊 </h6>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="single_tours">
+                        <div class="tours_photo">
+                            <img src="assets/image/about/4.jpg" alt="">
+                        </div>
+                        <a href="https://www.youtube.com/watch?v=f7ievJizxeA" class="popup-video">
+                            <i class="fa fa-play"></i>
+                            <h6>Kashmir Is A Place Where Your Dreams Set Sail | Kashmir Tour 2022</h6>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="single_tours">
+                        <div class="tours_photo">
+                            <img src="assets/image/about/2.jpg" alt="">
+                        </div>
+                        <a href="https://www.youtube.com/watch?v=CuFsriwuQ0A" class="popup-video">
+                            <i class="fa fa-play"></i>
+                            <h6>New York City Tour With Mehazabien Apu And Tasnia Farin</h6>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="single_tours">
+                        <div class="tours_photo">
+                            <img src="assets/image/about/8.jpg" alt="">
+                        </div>
+                        <a href="https://www.youtube.com/watch?v=AQ5L8Vd82Lo" class="popup-video">
+                            <i class="fa fa-play play-icon"></i>
+                            <h6>I Followed My Heart And It Led Me To The Ocean | USA & Mexico Tour 2022 </h6>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- tours end -->
+
+    <!-- styling start -->
+    <div class="styling__area pb-5" data-aos="fade-up" data-aos-duration="3000">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section__title">
+                        <h2><span>T</span>isha's Styling</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row gy-3">
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="single_tours">
+                        <div class="tours_photo">
+                            <img src="assets/image/about/11.jpg" alt="">
+                        </div>
+                        <a href="https://www.youtube.com/watch?v=-32p5GnrJhY" class="popup-video">
+                            <i class="fa fa-play play-icon"></i>
+                            <h6>Get ready with me for EID at HOME.. glowy make-up by Tanjin Tisha! || Tanjin Tisha's
+                                Makeup</h6>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="single_tours">
+                        <div class="tours_photo">
+                            <img src="assets/image/about/18.jpg" alt="">
+                        </div>
+                        <a href="https://www.youtube.com/watch?v=jTb9cicsOT8" class="popup-video">
+                            <i class="fa fa-play play-icon"></i>
+                            <h6>Clean your phone ‘at least once a day,’ Here’s how I clean my phone without damaging the
+                                screen
+                            </h6>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="single_tours">
+                        <div class="tours_photo">
+                            <img src="assets/image/about/19.jpg" alt="">
+                        </div>
+                        <a href="https://www.youtube.com/watch?v=XccFSDIANPs" class="popup-video">
+                            <i class="fa fa-play play-icon"></i>
+                            <h6>How to get the easy Makeup? Watch How I Do Simple Makeup | Tanjin Tisha's Simple Makeup
+                                Tutorial 01
+                            </h6>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- styling end -->
+
+    <!-- main section end -->
+
+    <!-- footer sectin start -->
+    <footer>
+        <div class="footer-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="text-center text-white mb-5">Join with <span>Tisha</span></h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/TanjinTishaTT" target="_blank"><i
+                                    class="fab fa-facebook"></i></a>
+                            <a href="https://www.youtube.com/channel/UCNK-u-Is7k00Jq8QsdbhrDw" target="_blank"><i
+                                    class="fab fa-youtube"></i></a>
+                            <a href="https://www.instagram.com/tanjintisha/?hl=en" target="_blank"><i
+                                    class="fab fa-instagram"></i></a>
+                            <a href="https://www.tiktok.com/discover/Tanjin-tisha-tiktok" target="_blank"><i
+                                    class="fab fa-tiktok"></i></a>
+                            <a href="https://twitter.com/Tanjin_Tisha_" target="_blank"><i
+                                    class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="footer-menu">
+                            <ul>
+                                <li><a href="./">home</a></li>
+                                <li><a href="./biography">biography</a></li>
+                                <li><a href="./awards">awards</a></li>
+                                <li><a href="./cover">cover</a></li>
+                                <li><a href="./tishatv">tisha tv </a></li>
+                                <li><a href="./tishanews">tisha news</a></li>
+                                <li><a href="./gallery">gallery</a></li>
+                                <li><a href="./contact">contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright-area pt-3 pb-3">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-md-6 col-sm-12 col-12">
+                        <p>Copyright ©
+                            <script>document.write(new Date().getFullYear())</script> All Rights Reserved
+                        </p>
+                    </div>
+                    <div class="col-md-6 col-sm-12 col-12 ">
+                        <span>Developed By <a href="https://classicit.com.bd/" target="_blank">Classic IT</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer sectin end -->
+
+
+    <!-- jquery link -->
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- slick slider -->
+    <script src="assets/js/slick.min.js"></script>
+    <!-- magmific popup -->
+    <script src="assets/js/magnific.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- main js -->
+    <script script src="assets/js/app.js"></script>
+
+    <script>
+        var tl = gsap.timeline({ repeat: -1 });
+        tl.to(".about__title h1", 30, { backgroundPosition: "-960px 0" });
+
+    </script>
+
+</body>
+
+</html>

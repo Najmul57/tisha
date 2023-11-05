@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanjin Tisha</title>
+    <!-- link shortcut -->
+    <link rel="shortcut icon" href="assets/image/logo.png" type="image/x-icon">
+    <!-- bootstarp link -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <!-- magnific -->
+    <link rel="stylesheet" href="assets/css/magnificpopup.css">
+    <!-- slick slider -->
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- css file link -->
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+    <!-- header section -->
+    <header class="header_section">
+
+        <!-- main header -->
+        <div class="main_header">
+            <div class="container">
+                <div class="header_wrapper">
+                    <!-- logo -->
+                    <div class="logo">
+                        <a href="./" class="logo_image">
+                            <!-- logo imgae -->
+                            <img src="assets/image/logo.png" alt="">
+                        </a>
+                    </div>
+                    <!-- header nav -->
+                    <nav class="header_nav d-none d-lg-block">
+                        <ul class="d-flex gap-4 align-items-center">
+                            <li class="header_nav_item">
+                                <a class="header_nav_link">about <span><i
+                                            class="fa-solid fa-chevron-down"></i></span></a>
+                                <!-- sub menu -->
+                                <div class="sub_menu">
+                                    <!-- sub menu -->
+                                    <ul class="sub_menu_list">
+                                        <li class="sub_menu_item">
+                                            <a href="./biography" class="sub_menu_link"> <span></span>biography</a>
+                                        </li>
+                                        <li class="sub_menu_item">
+                                            <a href="./awards" class="sub_menu_link"> <span></span>awards</a>
+                                        </li>
+                                        <li class="sub_menu_item">
+                                            <a href="./cover" class="sub_menu_link"> <span></span>cover</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="header_nav_item">
+                                <a class="header_nav_link" href="./tishatv">tisha tv</a>
+                            </li>
+                            <li class="header_nav_item">
+                                <a class="header_nav_link" href="./tishanews">tisha news</a>
+                            </li>
+                            <li class="header_nav_item">
+                                <a class="header_nav_link" href="./gallery">gallery</a>
+                            </li>
+                            <li class="header_nav_item">
+                                <a class="header_nav_link" href="./contact">contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- toggler -->
+                    <div class="toggle_nav d-lg-none" data-bs-toggle="offcanvas" data-bs-target="#toggle_nav">
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- mobile nav -->
+        <div class="offcanvas offcanvas-start" id="toggle_nav">
+            <!-- offcanvas header -->
+            <div class="offcanvas-header">
+                <div class="nav_logo">
+                    <a href="./">
+                        <img src="assets/image/logo.png" alt="tisha">
+                    </a>
+                </div>
+                <button type="button btn" data-bs-dismiss="offcanvas"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <!-- offcanvas body -->
+            <div class="offcanvas-body">
+                <div class="mobile_nav">
+                    <ul>
+                        <!-- item -->
+                        <li>
+                            <a href="./">
+                                <p class="d-flex gap-2">
+                                    <span>home</span>
+                                </p>
+                            </a>
+                        </li>
+                        <!-- item -->
+                        <li>
+                            <a class="dropdown_button">
+                                <p class="d-flex gap-2">
+                                    <span>about</span>
+                                </p>
+                                <span><i class="fa-solid fa-chevron-down"></i></span>
+                            </a>
+                            <!-- mobile sub nav -->
+                            <div class="mobile_suv_nav dropdown_sub">
+                                <ul>
+                                    <!-- Sub Nav list -->
+                                    <li>
+                                        <a href="./biography">
+                                            <p class="d-flex gap-2">
+                                                <span class="subnav_text">biography</span>
+                                            </p>
+                                        </a>
+                                    </li>
+                                    <!-- Sub Nav list -->
+                                    <li>
+                                        <a href="./awards">
+                                            <p class="d-flex gap-2">
+                                                <span class="subnav_text">awards</span>
+                                            </p>
+                                        </a>
+                                    </li>
+                                    <!-- Sub Nav list -->
+                                    <li>
+                                        <a href="./cover">
+                                            <p class="d-flex gap-2">
+                                                <span class="subnav_text">cover</span>
+                                            </p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <!-- item -->
+                        <li>
+                            <a href="./tishatv">
+                                <p class="d-flex gap-2">
+                                    <span>tisha tv</span>
+                                </p>
+                            </a>
+                        </li>
+                        <!-- item -->
+                        <li>
+                            <a href="./tishanews">
+                                <p class="d-flex gap-2">
+                                    <span>tisha news</span>
+                                </p>
+                            </a>
+                        </li>
+                        <!-- item -->
+                        <li>
+                            <a href="./contact">
+                                <p class="d-flex gap-2">
+                                    <span>contact</span>
+                                </p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <!-- header section end -->
+
+    <!-- main section start -->
+
+    <!-- biography start -->
+    <div class="biography__area" data-aos="fade-up" data-aos-duration="3000">
+        <div class="container">
+            <div class="row">
+                <div class="about__title">
+                    <h1>tanjin tisha</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- biography end -->
+
+    <!-- tisha cover start -->
+    <div class="tisha_cover section__padding" data-aos="fade-up" data-aos-duration="3000">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section__title">
+                        <h2><span>T</span>isha's Cover's</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/cover/1.jpg" class="single_gallery cover_photo">
+                        <img src="assets/image/cover/1.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/cover/2.jpg" class="single_gallery cover_photo">
+                        <img src="assets/image/cover/2.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/cover/3.jpg" class="single_gallery cover_photo">
+                        <img src="assets/image/cover/3.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/cover/4.jpg" class="single_gallery cover_photo">
+                        <img src="assets/image/cover/4.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/cover/5.jpg" class="single_gallery cover_photo">
+                        <img src="assets/image/cover/5.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/cover/6.jpg" class="single_gallery cover_photo">
+                        <img src="assets/image/cover/6.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/cover/7.jpg" class="single_gallery cover_photo">
+                        <img src="assets/image/cover/7.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/cover/8.jpg" class="single_gallery cover_photo">
+                        <img src="assets/image/cover/8.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/cover/9.jpg" class="single_gallery cover_photo">
+                        <img src="assets/image/cover/9.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/cover/10.jpg" class="single_gallery cover_photo">
+                        <img src="assets/image/cover/10.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/cover/11.jpg" class="single_gallery cover_photo">
+                        <img src="assets/image/cover/11.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/cover/12.jpg" class="single_gallery cover_photo">
+                        <img src="assets/image/cover/12.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/cover/13.jpg" class="single_gallery cover_photo">
+                        <img src="assets/image/cover/13.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/cover/14.jpg" class="single_gallery cover_photo">
+                        <img src="assets/image/cover/14.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <a href="assets/image/cover/15.jpg" class="single_gallery cover_photo">
+                        <img src="assets/image/cover/15.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- tisha cover end -->
+
+
+    <!-- main section end -->
+
+    <!-- footer sectin start -->
+    <footer>
+        <div class="footer-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="text-center text-white mb-5">Join with <span>Tisha</span></h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/TanjinTishaTT" target="_blank"><i
+                                    class="fab fa-facebook"></i></a>
+                            <a href="https://www.youtube.com/channel/UCNK-u-Is7k00Jq8QsdbhrDw" target="_blank"><i
+                                    class="fab fa-youtube"></i></a>
+                            <a href="https://www.instagram.com/tanjintisha/?hl=en" target="_blank"><i
+                                    class="fab fa-instagram"></i></a>
+                            <a href="https://www.tiktok.com/discover/Tanjin-tisha-tiktok" target="_blank"><i
+                                    class="fab fa-tiktok"></i></a>
+                            <a href="https://twitter.com/Tanjin_Tisha_" target="_blank"><i
+                                    class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="footer-menu">
+                            <ul>
+                                <li><a href="./">home</a></li>
+                                <li><a href="./biography">biography</a></li>
+                                <li><a href="./awards">awards</a></li>
+                                <li><a href="./cover">cover</a></li>
+                                <li><a href="./tishatv">tisha tv </a></li>
+                                <li><a href="./tishanews">tisha news</a></li>
+                                <li><a href="./gallery">gallery</a></li>
+                                <li><a href="./contact">contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright-area pt-3 pb-3">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-md-6 col-sm-12 col-12">
+                        <p>Copyright ©
+                            <script>document.write(new Date().getFullYear())</script> All Rights Reserved
+                        </p>
+                    </div>
+                    <div class="col-md-6 col-sm-12 col-12 ">
+                        <span>Developed By <a href="https://classicit.com.bd/" target="_blank">Classic IT</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer sectin end -->
+
+
+    <!-- jquery link -->
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- slick slider -->
+    <script src="assets/js/slick.min.js"></script>
+    <!-- magmific popup -->
+    <script src="assets/js/magnific.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- main js -->
+    <script script src="assets/js/app.js"></script>
+
+    <script>
+        var tl = gsap.timeline({ repeat: -1 });
+        tl.to(".about__title h1", 30, { backgroundPosition: "-960px 0" });
+
+    </script>
+
+</body>
+
+</html>
