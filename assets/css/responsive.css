@@ -24,6 +24,10 @@
     .about__title h1 {
         font-size: 150px;
     }
+
+    .instagram_celebration {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 
@@ -35,7 +39,7 @@
     }
 
     .release_content {
-        border-bottom: 1px solid var(--bs-black);
+        /* border-bottom: 1px solid var(--bs-black); */
     }
 
     .view_all {
@@ -78,6 +82,14 @@
     .review__content {
         padding: 10px !important;
     }
+
+    .release-right {
+        margin-left: 0;
+    }
+
+    .instagram_celebration {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 /* Large Mobile :480px. */
@@ -99,4 +111,7 @@
         font-size: 50px;
     }
 
+    .instagram_celebration {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }

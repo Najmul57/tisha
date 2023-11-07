@@ -333,7 +333,6 @@ a.sub_dropdown_btn.active {
 
 /* spotlight start */
 .spotlight__area {
-    background: #fff;
     overflow: hidden;
 }
 
@@ -946,3 +945,23 @@ a.sub_dropdown_btn.active {
 }
 
 /* cover end */
+.section__title.celebration h2::after {
+    background: no-repeat;
+}
+
+.section__title.celebration h2 span {
+    background-image: linear-gradient(to right bottom, #f9ce34, #ffaf31, #ff903d, #ff704d, #ff5160, #f9396e, #ef1f7e, #e0008f, #cf00a0, #b800b3, #960ec5, #6228d7);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.instagram_celebration {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.celebration__area {
+    background: #fff;
+}
