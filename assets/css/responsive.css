@@ -58,10 +58,6 @@
         font-size: 25px;
     }
 
-    .review .slick-dots {
-        top: 50%;
-        transform: translateY(-50%);
-    }
 
     .first_sporlight .spotlight_photo {
         max-height: 100%;
@@ -77,6 +73,10 @@
 
     .section__title h2 {
         font-size: 22px;
+    }
+
+    .review__content {
+        padding: 10px !important;
     }
 }
 

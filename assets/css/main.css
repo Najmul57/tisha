@@ -446,7 +446,8 @@ a.sub_dropdown_btn.active {
 /* footer start */
 .footer-area {
     padding: 100px 0;
-    background: linear-gradient(45deg, rgb(186 255 70) 0%, rgb(0 0 0) 100%);
+    /* background: linear-gradient(45deg, rgb(186 255 70) 0%, rgb(0 0 0) 100%); */
+    background-color: #000;
 }
 
 .footer-area h1 {
@@ -454,7 +455,7 @@ a.sub_dropdown_btn.active {
 }
 
 .footer-area h1 span {
-    color: #000
+    color: var(--main-color);
 }
 
 .social-links {
@@ -477,6 +478,7 @@ a.sub_dropdown_btn.active {
     overflow: hidden;
     transition: transform 0.5s;
     z-index: 9;
+    border: 1px solid var(--main-color);
 }
 
 .social-links a::after {
@@ -592,7 +594,6 @@ a.sub_dropdown_btn.active {
 
 .single__contact p {
     font-size: 15px;
-    height: 43px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -725,7 +726,7 @@ a.sub_dropdown_btn.active {
 }
 
 .quoto__area {
-    background-image: url(../image/about/1.jpg);
+    background-image: url(../image/tisha-bg.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -795,8 +796,7 @@ a.sub_dropdown_btn.active {
     display: flex;
     position: absolute;
     right: 0;
-    top: 80%;
-    transform: translateY(-80%);
+    top: 100%;
 }
 
 .review .slick-dots li button {
